@@ -64,7 +64,7 @@ with open("/content/drive/MyDrive/ML/tweet_nouns", "rb") as f:
     tweets = pickle.load(f)
 
 
-get_sentiment = load_model('/content/drive/MyDrive/ML/Tweet_Sentiment_3.h5')
+get_sentiment = load_model('Tweet_Sentiment_3 (1).h5')
 
 
 def remove_columns(df,l):
