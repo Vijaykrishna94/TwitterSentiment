@@ -273,7 +273,7 @@ def main():
       st.write(execute(df_test,text = 'text',remove=True,l=['keyword','id','location']))
 
   if st.button("WordCloud"):
-    st.image('/content/drive/MyDrive/ML/tweet_wordcloud.png')
+    st.image('tweet_wordcloud (1).png')
 
   if st.button("About"):
     st.text("Built Using StreamLit-by VijayKrishna")
