@@ -56,7 +56,7 @@ import matplotlib.pyplot as plt
 
 from wordcloud import WordCloud, STOPWORDS 
 
-with open("/content/drive/MyDrive/ML/encoder_3", "rb") as f:
+with open("encoder_3 (1)", "rb") as f:
     encoder = pickle.load(f)
 
 
