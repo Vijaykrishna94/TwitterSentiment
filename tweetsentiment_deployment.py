@@ -18,9 +18,7 @@ Original file is located at
 # install('streamlit')
 
 # import nltk
-# nltk.download('punkt')
-# nltk.download('wordnet')
-
+ 
 
 import pickle
 import os
@@ -34,6 +32,9 @@ import tensorflow as tf
 tf.random.set_seed(0)
 import streamlit as st
 import nltk 
+nltk.download('punkt')
+nltk.download('wordnet')
+
 import re 
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer() 
