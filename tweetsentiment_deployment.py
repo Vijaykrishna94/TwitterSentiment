@@ -7,19 +7,19 @@ Original file is located at
     https://colab.research.google.com/drive/1UrmP0qwD4h0AqpP2mTZPTKM--ROdUQv3
 """
 
-'''from google.colab import drive
-drive.mount('/content/drive')
-import subprocess'''
+# from google.colab import drive
+# drive.mount('/content/drive')
+# import subprocess
 
-'''def install(name):
-    subprocess.call(['pip', 'install', name])
+# def install(name):
+#     subprocess.call(['pip', 'install', name])
 
-install('flask-ngrok')
-install('streamlit')
+# install('flask-ngrok')
+# install('streamlit')
 
-import nltk
-nltk.download('punkt')
-nltk.download('wordnet')'''
+# import nltk
+# nltk.download('punkt')
+# nltk.download('wordnet')
 
 
 import pickle
@@ -60,8 +60,8 @@ with open("encoder_3 (1)", "rb") as f:
     encoder = pickle.load(f)
 
 
-'''with open("/content/drive/MyDrive/ML/tweet_nouns", "rb") as f:
-    tweets = pickle.load(f)'''
+# with open("/content/drive/MyDrive/ML/tweet_nouns", "rb") as f:
+#     tweets = pickle.load(f)
 
 
 get_sentiment = load_model('Tweet_Sentiment_3 (1).h5')
