@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1UrmP0qwD4h0AqpP2mTZPTKM--ROdUQv3
 """
 
-from google.colab import drive
+'''from google.colab import drive
 drive.mount('/content/drive')
-import subprocess
+import subprocess'''
 
 def install(name):
     subprocess.call(['pip', 'install', name])
 
-install('flask-ngrok')
+'''install('flask-ngrok')'''
 install('streamlit')
 
 import nltk
