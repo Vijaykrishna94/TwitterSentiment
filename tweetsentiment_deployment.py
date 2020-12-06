@@ -11,15 +11,15 @@ Original file is located at
 drive.mount('/content/drive')
 import subprocess'''
 
-def install(name):
+'''def install(name):
     subprocess.call(['pip', 'install', name])
 
-'''install('flask-ngrok')'''
+install('flask-ngrok')
 install('streamlit')
 
 import nltk
 nltk.download('punkt')
-nltk.download('wordnet')
+nltk.download('wordnet')'''
 
 
 import pickle
@@ -60,8 +60,8 @@ with open("encoder_3 (1)", "rb") as f:
     encoder = pickle.load(f)
 
 
-with open("/content/drive/MyDrive/ML/tweet_nouns", "rb") as f:
-    tweets = pickle.load(f)
+'''with open("/content/drive/MyDrive/ML/tweet_nouns", "rb") as f:
+    tweets = pickle.load(f)'''
 
 
 get_sentiment = load_model('Tweet_Sentiment_3 (1).h5')
@@ -201,7 +201,7 @@ def execute_text(text):
 
 
 def get_wordcloud(tweets):
-  pic = np.array(Image.open('/content/drive/MyDrive/PngItem_300707.png'))
+  pic = np.array(Image.open('tweet_wordcloud (1).png'))
 
   wordcloud = WordCloud(width = 800, height = 800, 
                   background_color ='white', 
